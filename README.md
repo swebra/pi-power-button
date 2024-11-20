@@ -3,7 +3,7 @@ A simple combined shutdown / restart button with visual feedback for a Raspberry
 
 A fork of [this script](https://github.com/scruss/shutdown_button) by @scruss, this simple python script allows for a single button to restart or shutdown a Pi depending on how long the button was held. This version adds LED sequences to distinguish between restarting and shutting down. The code structure has also been changed for personal preference, and the `systemd` service has been dropped for the same reason (although @scruss's service can still easily be used).
 
-See [imswebra.com](https://www.imswebra.com/projects/pipowerbutton/) for more information on how I personally use this script.
+See [swebra.com](https://swebra.com/projects/pi-power-button/) for more information on how I personally use this script.
 
 ## Defaults
 - Holding the button for 2 to 5 seconds will restart your Pi. The LED will flash quickly to indicate a restart.
